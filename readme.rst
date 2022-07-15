@@ -34,7 +34,7 @@ You can start by configuring config.py to how you want it, changing the ip then 
 Support
 -------
 
-If you need support for CSGO TUG, contact me on discord. Jbb#0001
+If you need support for sonos volume controller, contact me on discord. Jbb#0001
 
 
 
