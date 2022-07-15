@@ -1,28 +1,33 @@
-CSGO trade up generator/CSGO TUG
+SONOS volume controller
 ====
 
-CSGO trade up generator is a generator that generates all possible trade ups and deems their profitability. It uses a data scraper to first make a db list, then start generating.
+Sonos volume controller is a simple program to limit sonos volume. The max volume can be configured and what it should go to. This can bypass if someone has acces to the volume and is good if you dont trust your friends at your house. It is fully configurable. 
+
+This program uses a python libary called SoCo to interact with sonos.
 
 
+.. image:: https://img.shields.io/pypi/v/soco.svg?style=flat
+    :target: https://github.com/SoCo/SoCo
+    :alt: Latest PyPI version
 
 Installation
 ------------
 
-CSGO TUG requires Python 3.6 or newer.
+Sonos volume controller requires Python 3.6 or newer.
 
 Use pip:
 
-``pip install requests``
-``pip install mysql.connector``
+``pip install soco``
+``pip install time``
 
 
-CSGO TUG relies on a database to function. You can setup a mysql database on a server, or use mysql with something like xampp. I recomend xampp as its easy to setup and doesnt reqire anything special and will work out of the box.
 
+Sonos volume controll has bugs and can require manual ip configuration if it cant discover it.
 
 Basic Usage
 -----------
 
-You can start by running main.py and running the scraper, when thats done i suggest you start running the tradeup type you wish.
+You can start by configuring config.py to how you want it, changing the ip then running main.py
 
 
 
@@ -36,20 +41,16 @@ If you need support for CSGO TUG, contact me on discord. Jbb#0001
 Features
 --------
 
-CSGO TUG supports the following features:
- - price and skin scraping
- - trade up generation
- - profitability caulculator
- - datbase logging for both skins and trade ups
- - database size checker
+Sonos volume controll supports the following features:
+ - volume max
+ - volume damping
+ - check interval
+ 
 
 Features to come
 --------
 
 I am working on these atm and may come down the line.
- - excel sheet alternative to DB
- - DB easy setup
- - web UI
- - multi threading
- - price limiter
+ - more modes if it goes over
+ - email support for commands like cutoff.
 Note that i have no eta for these and might not add them at all.
