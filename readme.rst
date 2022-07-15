@@ -8,7 +8,7 @@ This program uses a python libary called SoCo to interact with sonos.
 
 .. image:: https://img.shields.io/pypi/v/soco.svg?style=flat
     :target: https://github.com/SoCo/SoCo
-    :alt: Latest PyPI version
+    :alt: Latest SoCo version
 
 Installation
 ------------
