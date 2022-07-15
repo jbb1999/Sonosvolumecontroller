@@ -6,10 +6,10 @@ Sonos volume controller is a simple program to limit sonos volume. The max volum
 This program uses a python libary called SoCo to interact with sonos.
 
 
-.. image:: https://img.shields.io/pypi/v/soco.svg?style=flat
-    :target: https://github.com/SoCo/SoCo
-    :alt: Latest SoCo version
-
+.. image:: https://travis-ci.com/SoCo/SoCo.svg?branch=master
+   :target: https://travis-ci.com/SoCo/SoCo
+   :alt: Build Status
+  
 Installation
 ------------
 
